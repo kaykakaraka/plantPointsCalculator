@@ -4,11 +4,11 @@ class Calculator {
   }
 
   addItem(item) {
-
+    this.list.push(item);
   }
 
   showPlantPoints() {
-    
+
   }
 };
 
