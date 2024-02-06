@@ -10,4 +10,7 @@ describe(Calculator, () => {
     calculator.addItem('banana');
     expect(calculator.list).toContain('banana');
   })
+  it('adds 1 plant point for a banana',() => {
+    expect(calculator.points).toEqual(1);
+  })
 } )
